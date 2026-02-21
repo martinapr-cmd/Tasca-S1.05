@@ -1,16 +1,16 @@
 <?php
 
-abstract class Shape {
+abstract class Shape
+{
 
-protected float $width;
-protected float $length;
+    protected float $width;
+    protected float $length;
 
-public function __construct(float $width, float $length) {
-$this->width = $width;
-$this->length = $length;
+    public function __construct(float $width, float $length)
+    {
+        $this->width = $width;
+        $this->length = $length;
+    }
+
+    abstract public function getArea(): float;
 }
-
-abstract public function getArea(): float;
-
-}
-?>

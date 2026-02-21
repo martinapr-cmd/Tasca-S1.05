@@ -1,16 +1,14 @@
 <?php
 
-abstract class Animal {
+abstract class Animal
+{
 
-protected string $name;
+    protected string $name;
 
-public function __construct(string $name) {
-    $this->name = $name;
-} 
+    public function __construct(string $name)
+    {
+        $this->name = $name;
+    }
 
-abstract public function speak(): string;
-
+    abstract public function speak(): string;
 }
-
-
-?>

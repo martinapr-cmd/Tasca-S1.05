@@ -2,11 +2,11 @@
 
 require_once "Shape.php";
 
-Class Rectangle extends Shape {
+class Rectangle extends Shape
+{
 
-public function getArea(): float {
-return $this->width * $this->length;
+    public function getArea(): float
+    {
+        return $this->width * $this->length;
     }
 }
-
-?>

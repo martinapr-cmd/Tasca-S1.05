@@ -2,19 +2,20 @@
 
 require_once 'ShapeN2.php';
 
-Class Rectangle extends ShapeN2 {
+class Rectangle extends ShapeN2
+{
 
-private float $width;
-private float $height;
+    private float $width;
+    private float $height;
 
-public function __construct($width, $height) {
-$this->width = $width;
-$this->height = $height;
-}   
+    public function __construct($width, $height)
+    {
+        $this->width = $width;
+        $this->height = $height;
+    }
 
-public function getArea(): float {
-return $this->width * $this->height;
+    public function getArea(): float
+    {
+        return $this->width * $this->height;
     }
 }
-
-?>

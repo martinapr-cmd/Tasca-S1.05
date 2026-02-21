@@ -2,15 +2,11 @@
 
 require_once "Animal.php";
 
-class Cat extends Animal {
+class Cat extends Animal
+{
 
-public function speak(): string {
-    return $this->name . " says: Miaaaau!";
+    public function speak(): string
+    {
+        return $this->name . " says: Miaaaau!";
+    }
 }
-
-}
-
-
-
-
-?>
