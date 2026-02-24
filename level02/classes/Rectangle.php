@@ -2,7 +2,7 @@
 
 require_once 'ShapeN2.php';
 
-class Rectangle extends ShapeN2
+class Rectangle implements ShapeN2
 {
 
     private float $width;

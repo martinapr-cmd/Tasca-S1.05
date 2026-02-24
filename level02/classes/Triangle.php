@@ -2,7 +2,7 @@
 
 require_once "ShapeN2.php";
 
-class Triangle extends ShapeN2
+class Triangle implements ShapeN2
 {
 
     private float $base;

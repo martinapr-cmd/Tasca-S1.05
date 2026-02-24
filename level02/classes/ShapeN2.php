@@ -1,7 +1,7 @@
 <?php
 
-abstract class ShapeN2
+interface ShapeN2
 {
 
-    abstract public function getArea(): float;
+    public function getArea(): float;
 }

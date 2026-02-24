@@ -2,7 +2,7 @@
 
 require_once "ShapeN2.php";
 
-class Circle extends ShapeN2
+class Circle implements ShapeN2
 {
 
     private float $radius;
